@@ -1,5 +1,7 @@
 from django.contrib import admin
+from blog.models import Topics, Postagem
 
 # Register your models here.
 
-from .models import Postagem, Topics
+admin.site.register(Postagem)
+admin.site.register(Topics)
